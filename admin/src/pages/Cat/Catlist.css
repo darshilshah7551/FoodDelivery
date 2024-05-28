@@ -1,0 +1,34 @@
+.catlist-table-format {
+  display: grid;
+  grid-template-columns: 4fr 5fr 0.5fr;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  border: 1px solid #cacaca;
+  font-size: 13px;
+}
+.catlist-table-format.title {
+  background-color: #f9f9f9;
+}
+.catlist-table-format img {
+  width: 50px;
+}
+.button {
+  background-color: red;
+  color: white;
+  padding: 10px 8px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  width: 75%;
+  opacity: 0.9;
+}
+@media (max-width: 600px) {
+  .catlist-table-format {
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 15px;
+  }
+  .catlist-table-format.title {
+    display: none;
+  }
+}
