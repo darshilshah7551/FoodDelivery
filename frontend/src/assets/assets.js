@@ -1,9 +1,6 @@
 import basket_icon from "./basket_icon.png";
-import logo from "./logo.png";
-import header_img from "./header_img.png";
 import search_icon from "./search_icon.png";
 
-import food_32 from "./food_32.png";
 import add_icon_white from "./add_icon_white.png";
 import add_icon_green from "./add_icon_green.png";
 import remove_icon_red from "./remove_icon_red.png";
@@ -21,12 +18,9 @@ import logout_icon from "./logout_icon.png";
 import parcel_icon from "./parcel_icon.png";
 import skip_food from "./Skip.png";
 import SkipTheDishes_logo from "./SkipTheDishes_logo.png";
-import foodbg from "./foodbg.png";
 
 export const assets = {
-  logo,
   basket_icon,
-  header_img,
   search_icon,
   rating_starts,
   add_icon_green,
@@ -45,5 +39,4 @@ export const assets = {
   parcel_icon,
   skip_food,
   SkipTheDishes_logo,
-  foodbg,
 };
